@@ -22,6 +22,7 @@
   <body>
     <header class="header">
       <div class="container main-nav">
+
         <a class="link-logo" href="#"
           >Web<span class="logo-header">Studio</span></a
         >
@@ -40,12 +41,24 @@
         </nav>
         <ul class="site-contact" , class="list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
+            
+            <a href="mailto:info@devstudio.com" class="link" class="contact-link">
+              <svg>
+                <use href="./images/symbol-defs.svg#envelope">
+                </use>
+              </svg>
+            </a>
+            
+              info@devstudio.com</a>
+            
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <li class="item" class="">
+            
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11
+              <svg>
+                <use href="/images/symbol-defs.svg#smartphone"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -53,16 +66,20 @@
 
     <main>
       <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
-        </div>
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
+
       <section class="section">
         <div class="container">
-          <h2 class="section-title-opasity">Наши преимущества</h2>
+          <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="advantages" class="list">
             <li class="item">
+              <div class="advantages-background">
+                <svg class="advantages-sprite">
+                  <use href="/images/symbol-defs.svg#antenna"></use>
+                </svg>
+              </div>
               <h3 class="text-title">Внимание к деталям</h3>
               <p class="solution-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -70,6 +87,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="advantages-background">
+                <svg class="advantages-sprite">
+                  <use href="./images/symbol-defs.svg#clock"></use>
+                </svg>
+              </div>
               <h3 class="text-title">Пунктуальность</h3>
               <p class="solution-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -77,6 +99,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="advantages-background">
+                <svg class="advantages-sprite">
+                  <use href="./images/symbol-defs.svg"></use>
+                </svg>
+              </div>
               <h3 class="text-title">Планирование</h3>
               <p class="solution-text">
                 Равным образом консультация с широким активом в значительной
@@ -84,6 +111,11 @@
               </p>
             </li>
             <li class="item">
+              <div class="advantages-background">
+                <svg class="advantages-sprite">
+                  <use href="./images/symbol-defs.svg "></use>
+                </svg>
+              </div>
               <h3 class="text-title">Современные технологии</h3>
               <p class="solution-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -168,6 +200,7 @@
           </ul>
         </div>
       </section>
+      
     </main>
     <footer class="footer">
       <div class="container">
@@ -200,4 +233,8 @@
   </body>
 </html>
 
-current { color: var(--accent-color); }
+
+ <svg>
+                <use href="./images/symbol-defs.svg#envelope">
+                </use>
+              </svg>
