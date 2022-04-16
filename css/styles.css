@@ -506,10 +506,10 @@ header {
   display: flex;
 
 }
-.address {
+.adres {
   margin-top: 20px;
 }
-.address .item + .item {
+.adres .item + .item {
   margin-top: 9px;
 }
 .link-map {
@@ -519,7 +519,7 @@ header {
   line-height: 1.71;
   text-decoration: none;
 }
-.address .link {
+.adres .link {
   color: var(--address-text-color);
   font-weight: 400;
   font-style: normal;
