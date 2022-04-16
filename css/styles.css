@@ -267,7 +267,7 @@ header {
   fill: var(--accent-text-color) ;
 }
 
-.contact-link {
+.contact .link {
   color: var(--title-text-color);
   display: block;
   font-style: normal;
@@ -460,7 +460,7 @@ header {
 
 
 /* Кнопки портфолио */
-.button-port {
+.button-port  {
   background-color: var(--background-button-color);
   color: var(--title-text-color);
   border-radius: 4px;
