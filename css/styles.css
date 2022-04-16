@@ -260,12 +260,25 @@ header {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--main-text-color) ;
+  fill:  currentColor;
 
  }
 .item-icon:hover {
-  fill: var(--accent-text-color) ;
+  fill: currentColor; 
 }
+.item-pfon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+
+}
+
+.item-pfon:hover {
+  fill: currentColor;
+}
+
+
 
 .contact .link {
   color: var(--title-text-color);
@@ -446,6 +459,7 @@ header {
 
 /* Контакты */
 .site-contact .link {
+  display: flex;
   color: var(--main-text-color);
   font-style: normal;
   font-weight: 500;
