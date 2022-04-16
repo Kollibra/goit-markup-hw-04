@@ -386,10 +386,10 @@ header {
 .client-cont {
   display: flex;
   justify-content: space-between;
-  color: #AFB1B8;
+ 
 
 }
-.team-listrite {
+.client-listrite {
   display: flex;
   align-items: center;
   border: 1px solid #AFB1B8;
@@ -398,15 +398,15 @@ header {
   border-radius: 4px;
   color: #AFB1B8;
 }
-.team-listrite:hover {
+.client-listrite:hover {
   color: var(--accent-text-color);
 }
 
 .client-icon {
-    fill #AFB1B8;
+  fill: currentColor;
 }
 .client-icon:hover {
- fill: var(--accent-text-color);
+fill: currentColor;
 }
 
   
