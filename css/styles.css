@@ -573,11 +573,21 @@ fill: currentColor;
   background-color: var(--accent-text-color);
 }
 
-.action-icon {
+.action-icon  {
+  
   fill: var(--white-text-color);
 }
 
 .action-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
+.social {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
