@@ -528,10 +528,10 @@ fill: currentColor;
   display: flex;
 
 }
-.adres {
+.address-link {
   margin-top: 20px;
 }
-.adres .item + .item {
+.address-link .item + .item {
   margin-top: 9px;
 }
 .link-map {
@@ -541,7 +541,7 @@ fill: currentColor;
   line-height: 1.71;
   text-decoration: none;
 }
-.adres .link {
+.address-link .link {
   color: var(--address-text-color);
   font-weight: 400;
   font-style: normal;
