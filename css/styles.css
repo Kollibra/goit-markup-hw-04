@@ -23,6 +23,7 @@
 
 /* Контейнер */
 .container {
+  
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
@@ -400,6 +401,7 @@ header {
 }
 .client-listrite:hover {
   color: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color)
 }
 
 .client-icon {
@@ -424,11 +426,15 @@ fill: currentColor;
   margin-bottom: 30px;
   
   }
-  .portf-list .item:hover {
+  .portf-link {
+    display: block;
+  }
+  .portf-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+    1px 4px 6px rgba(0, 0, 0, 0.16); 
   }
+  
 .portf-list .item:nth-child(3n) {
   margin-right: 0;
   }
@@ -518,16 +524,21 @@ fill: currentColor;
 
 /* Футер */
 .footer {
+  display: flex;
   background-color: var(--footer-hero-color) ;
   text-decoration: none;
   padding-top: 60px;
   padding-bottom: 60px;
   
 }
-.main-footer {
+.footer__container {
   display: flex;
-
+  display: block;
+  align-items: baseline;
+  flex-direction: row;
 }
+
+
 .address-link {
   margin-top: 20px;
 }
@@ -552,7 +563,10 @@ fill: currentColor;
 
 .action-cont {
   display: flex;
-
+  
+}
+.action {
+  display: flex;
 }
 .action-sprite {
   display: flex;
@@ -587,12 +601,13 @@ fill: currentColor;
   display: flex;
   align-items: baseline;
 }
-.social {
-  display: flex;
-  flex-direction: column;
-  margin-left: 70px;
+.social-link {
+   margin-left: 70px;
 }
-
+.container main-footer {
+  display: flex;
+  align-items: baseline;
+}
 
 
 
