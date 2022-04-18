@@ -639,6 +639,10 @@ fill: currentColor;
 
 .footer-link {
   display: flex;
+  align-items: baseline;
 }
 
+.footer-icon {
+  margin-left: 70px;
+}
 
