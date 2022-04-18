@@ -611,3 +611,34 @@ fill: currentColor;
 
 
 
+.icon-list {
+  display: flex;
+
+}
+
+.icon-ft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+
+  
+  
+  .icon-ft:nth-child(4) {
+    margin-right: 0;
+  }
+  
+  .icon-ft:hover {
+    background-color: var(--accent-text-color);
+  }
+
+.footer-link {
+  display: flex;
+}
+
+
