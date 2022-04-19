@@ -274,7 +274,6 @@ header {
   fill: currentColor;
 
 }
-
 .item-pfon:hover {
   fill: currentColor;
 }
@@ -310,19 +309,19 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
- 
+  fill: #AFB1B8;
 }
 
 .team-sprite:hover {
   background-color: var(--accent-text-color);
+  fill: var(--white-text-color)
 }
 .team-icon {
-  fill: #AFB1B8;
+  fill: ;
   
 }
 .team-icon:hover {
-  fill: var(--white-text-color)
+  fill: 
 }
 
 
