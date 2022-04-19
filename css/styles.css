@@ -624,6 +624,7 @@ fill: currentColor;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+  fill: var(--white-text-color);
 }
 
   
