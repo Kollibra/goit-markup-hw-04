@@ -240,8 +240,9 @@ font-style: normal;
     height: 112px; */
     justify-content: center;
     align-items: center;
-   
-}
+    
+    
+} 
 .ouradvant-list {
     display: flex;
     flex-direction: row;
