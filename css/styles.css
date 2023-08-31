@@ -352,7 +352,35 @@ font-style: normal;
 .title-team {
     margin-bottom: 8px;
 }
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+    
 
+}
+
+.team-sprite {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill: #F4F4FD ;
+    background-color: #404BBf ;
+  }
+
+  .team-sprite:hover {
+    background-color: #404BBf ;
+    fill: #F4F4FD ;
+  }
+  
+  
 /*Footer*/
 footer {
     background-color: #2E2F42;
