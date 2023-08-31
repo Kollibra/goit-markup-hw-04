@@ -148,12 +148,13 @@ letter-spacing: 0.02em;
 .link:after {
     content: '';
     position: absolute;
-    bottom: 1px;
+    bottom: -1px;
+    height: 4px;
     left: 0;
     width: 100%;
-    /* border: #000;
-    border-radius: 2px solid; */
-    background-color: #000;
+    background-color: #404bbf;
+    border-radius: 2px;
+    
 }
 address {
 font-style: normal;
