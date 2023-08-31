@@ -257,13 +257,17 @@ font-style: normal;
     gap: 24px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    /* width: 264px;
-    height: 112px; */
+    height: 112px; 
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 8px;
+  
     
 } 
+.advantages-sprite {
+    width: 64px;
+    height: 64px;
+}
 .ouradvant-list {
     display: flex;
     flex-direction: row;
