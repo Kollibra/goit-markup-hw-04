@@ -264,10 +264,10 @@ font-style: normal;
   
     
 } 
-.advantages-sprite {
+/* .advantages-sprite {
     width: 64px;
     height: 64px;
-}
+} */
 .ouradvant-list {
     display: flex;
     flex-direction: row;
