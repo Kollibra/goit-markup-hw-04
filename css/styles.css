@@ -337,6 +337,7 @@ font-style: normal;
     
 }
 .item-ourteam {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
@@ -359,11 +360,14 @@ font-style: normal;
     margin-top: 8px;
     margin-left: 16px;
     margin-right: 16px;
-    justify-content: space-between;
-    
+    justify-content: center;
+  
 
 }
 
+.team-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .team-sprite {
     display: flex;
     width: 40px;
@@ -372,7 +376,7 @@ font-style: normal;
     align-items: center;
     border-radius: 50%;
     fill: #F4F4FD ;
-    background-color: #404BBf ;
+    background-color:#4d5ae5;
   }
 
   .team-sprite:hover {
