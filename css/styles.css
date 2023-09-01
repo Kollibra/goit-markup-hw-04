@@ -379,13 +379,17 @@ font-style: normal;
     border-radius: 50%;
     fill: #F4F4FD ;
     background-color:#4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .team-sprite:hover {
     background-color: #404BBf ;
     fill: #F4F4FD ;
   }
-  
+  .team-sprite:focus {
+    background-color: #404BBf ;
+    fill: #F4F4FD ;
+  }
   
 /*Footer*/
 .container-position {
