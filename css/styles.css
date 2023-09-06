@@ -129,7 +129,37 @@ letter-spacing: 0.02em;
 .logo-footer {
     color: #F4F4FD;
 }
-.link {
+.link  {
+    position: relative; 
+    display: inline-block;
+    text-decoration: none; 
+    color: #2E2F42 ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+.link-port  {
+    position: relative; 
+    display: inline-block;
+    text-decoration: none; 
+    color: #2E2F42 ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.link-cont 
+
+{
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -141,12 +171,13 @@ letter-spacing: 0.02em;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
+} 
+.site-nav .link:hover {
 
-}
-.link:hover {
     color: #404BBf
 }
-.link:focus {
+.site-nav  .link:focus {
+    
     color: #404BBf
 }
 .link:after {
